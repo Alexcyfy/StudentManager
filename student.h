@@ -1,7 +1,6 @@
 #ifndef _STUDENT_H_
 #define _STUDENT_H_
-#endif
-
+#include <string>
 class student
 {
 private:
@@ -9,6 +8,9 @@ std::string firstName;
 std::string lastName;
 
 public:
-std::string setName(std::string, std::string);
+void setName(std::string, std::string);
+std::string fullName();
 
 };
+
+#endif
